@@ -26,7 +26,7 @@ gulp.task("cache:html", function(){
 
 /*Task minfy PNG, JPEG, GIF and SVG images*/
 gulp.task("imagemin", function(){
-	return gulp.src("src/img/*")
+	return gulp.src("src/img/**/*")
 			   .pipe(imagemin())
 			   .pipe(gulp.dest("dist/img"));
 });
