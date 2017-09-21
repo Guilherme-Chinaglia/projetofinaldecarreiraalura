@@ -1,0 +1,27 @@
+{
+  "name": "projeto_carreira_front_end_alura",
+  "description": "Projeto carreira front end da Alura",
+  "main": "index.js",
+  "authors": [
+    "Guilherme Chinaglia"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "layout",
+    "front",
+    "end",
+    "alura"
+  ],
+  "homepage": "https://github.com/quinalia/projetofinaldecarreiraalura",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}

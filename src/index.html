@@ -11,17 +11,17 @@
 		<header class="header">
 			<nav>
 				<ul class="list-nav">
-					<li class="item-nav"><a class="link-nav" href="#">sobre</a></li>
-					<li class="item-nav"><a class="link-nav" href="#">palestrantes</a></li>
+					<li class="item-nav"><a class="link-nav" href="#panel-about">sobre</a></li>
+					<li class="item-nav"><a class="link-nav" href="#panel-speakers">palestrantes</a></li>
 				</ul>
 			</nav>
 			<div class="panel-call">
 				<h1 class="title-panel-call">aluraconf</h1>
 				<h2 class="subtitle-panel-call">30maio|rio</h2>
-				<a class="button-panel-call" href="#">inscreva-se</a>
+				<a class="button-panel-call" href="#panel-form">inscreva-se</a>
 			</div>
 		</header>
-		<section class="panel-description">
+		<section class="panel-description" id="panel-about">
 			<div class="container">
 				<h2 class="title-description">Muito conteúdo: do frontend ao backend</h2>
 				<h3 class="subtitle-description">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
@@ -29,7 +29,7 @@
 				<p class="paragraph-description">É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.</p>
 			</div>	
 		</section>
-		<section class="panel-speakers">
+		<section class="panel-speakers" id="panel-speakers">
 			<div class="container">
 				<h2 class="title-speakers">palestrantes</h2>
 				<h3 class="subtitle-speakers">Aprenda com palestrantes que são referência no mercado</h3>
@@ -42,7 +42,6 @@
 							</figure>
 								<p class="speaker-speach">To be or not to be MEAN</p>
 						</li>
-
 						<li class="speaker">
 							<figure class="speaker-portrait">
 								<img class="speaker-img" src="../img/palestrantes/placeholder.jpeg" alt="">
@@ -51,7 +50,6 @@
 							</figure>
 								<p class="speaker-speach">To be or not to be MEAN</p>
 						</li>
-
 						<li class="speaker">
 							<figure class="speaker-portrait">
 								<img class="speaker-img" src="../img/palestrantes/placeholder.jpeg" alt="">
@@ -60,7 +58,6 @@
 							</figure>
 								<p class="speaker-speach">To be or not to be MEAN</p>
 						</li>
-
 						<li class="speaker">
 							<figure class="speaker-portrait">
 								<img class="speaker-img" src="../img/palestrantes/placeholder.jpeg" alt="">
@@ -69,7 +66,6 @@
 							</figure>
 								<p class="speaker-speach">To be or not to be MEAN</p>
 						</li>
-
 						<li class="speaker">
 							<figure class="speaker-portrait">
 								<img class="speaker-img" src="../img/palestrantes/placeholder.jpeg" alt="">
@@ -78,7 +74,6 @@
 							</figure>
 								<p class="speaker-speach">To be or not to be MEAN</p>
 						</li>
-
 						<li class="speaker">
 							<figure class="speaker-portrait">
 								<img class="speaker-img" src="../img/palestrantes/placeholder.jpeg" alt="">
@@ -90,5 +85,19 @@
 					</ul>
 			</div>
 		</section>
+		<section class="contact-form" id="panel-form">
+			<div class="container">
+				<h2 class="title-form">seus dados</h2>
+				<form class="form" action="">
+					<label for="nome">Nome</label>
+					<input class="field-input" type="text">
+					<label for="email">E-mail</label>
+					<input class="field-input" type="email">
+					<button class="btn" type="submit">realizar inscrição</button>
+				</form>
+			</div>
+		</section>
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
